@@ -42,6 +42,10 @@
 
 ---
 
+## Демо
+
+https://Atichka.github.io/pixi-skia-export/
+
 ## 🚀 Запуск
 
 ### 1. Клонирование репозитория
