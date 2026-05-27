@@ -93,6 +93,7 @@ async function initPixi() {
         width: 800,
         height: 600,
         backgroundColor: 0xeeeeee,
+        forceCanvas: true,
     });
     
     console.log('Pixi приложение создано');
