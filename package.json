@@ -3,18 +3,24 @@
   "version": "1.0.0",
   "scripts": {
     "start": "webpack serve",
-    "build": "webpack"
+    "build": "webpack",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
   },
   "dependencies": {
-    "pixi.js-legacy": "7.4.3",
     "canvaskit-wasm": "0.39.1",
-    "jspdf": "^2.5.1"
+    "jspdf": "^2.5.1",
+    "pixi.js-legacy": "7.4.3"
   },
   "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
     "webpack": "^5.107.0",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.2",
-    "ts-loader": "^9.5.1",
-    "typescript": "^5.4.5"
+    "webpack-dev-server": "^4.15.2"
   }
 }
